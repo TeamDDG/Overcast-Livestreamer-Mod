@@ -36,7 +36,7 @@ public class ModRenderer {
                 (mc.currentScreen != null && mc.currentScreen instanceof GuiChat))
                 && !mc.gameSettings.showDebugInfo
                 && mc.getCurrentServerData() != null
-                && mc.getCurrentServerData().serverIP.contains("oc.tc")) {
+                && mc.getCurrentServerData().serverIP.contains("avic.us")) {
             ScaledResolution res = new ScaledResolution(mc, mc.displayWidth, mc.displayHeight);
             FontRenderer fontRenderer = mc.fontRendererObj;
             int width = res.getScaledWidth();
